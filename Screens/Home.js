@@ -1,5 +1,9 @@
 import { View, Text } from 'react-native'
-import React from 'react'
+import React , { useEffect, useState }from 'react'
+import { auth } from '../Firebase'
+
+
+
 
 const Home = () => {
   return (
